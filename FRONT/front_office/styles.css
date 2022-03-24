@@ -17,12 +17,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 3%;
 }
 
 button {
     margin: 3% 0 -2% -80%;
-    background-color: rgba(0, 255, 157, 0.685);
+    background-color: rgba(93, 173, 240, 0.829);
     border: none;
     padding: 1%;
     font-weight: 700;
@@ -37,12 +36,14 @@ button:hover {
 }
 
 header {
-    margin-left: -6%;
     display: flex;
-    width: 100%;
+    width: 120%;
+    height: 13vh;
+    padding: 8% 3% 5% 3%;
     justify-content: space-around;
     align-items: flex-end;
     gap: 35%;
+    background-color:rgba(48, 118, 175, 0.829)
 }
 
 h1 {
@@ -73,10 +74,17 @@ main {
     box-shadow: 8px 5px 15px black;
 }
 
+.article button {
+    width: 5vw;
+    margin-left: 0%;
+    border-radius: 8px;
+}
+
 .article-header {
     display: flex;
     justify-content: space-between;
     font-size: 0.8em;
+    margin-top: 6%;
 }
 
 .posted {

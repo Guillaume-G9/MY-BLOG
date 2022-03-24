@@ -43,7 +43,7 @@ main {
 
 button {
     width: 9vw;
-    background-color: rgba(0, 255, 157, 0.685);;
+    background-color: rgba(93, 173, 240, 0.829);
     padding: 2%;
     font-size: 1.3em;
     font-weight: 600;
@@ -75,7 +75,7 @@ button:hover {
 .article-header {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(241, 209, 241, 0.239);
+    background-color: rgba(216, 209, 241, 0.239);
     border-radius: 12px;
     height: 5vh;
     padding: 1%;
@@ -95,7 +95,7 @@ button:hover {
 
 .article-content p{
     margin-top: 5%;
-    background-color: rgba(241, 209, 241, 0.239);
+    background-color: rgba(216, 209, 241, 0.239);
     border-radius: 12px;
     padding: 1%;
     height: 25vh;

@@ -2,17 +2,26 @@ const mongoose = require("mongoose")
 
 const postSchema = new mongoose.Schema({
     user : String,
-    title: String,
-    content: String,
-    createdAt: {
-        type: Date,
-        immutable: true,
-        default: () => Date.now(),
+    title: {
+        type: String,
+        required: true
     },
-    updatedAt: {
-        type: Date,
-        default: () => Date.now(),
+    content: {
+        type: String,
+        required: true
     },
+    // createdAt: {
+    //     type: Date,
+    //     immutable: true,
+    //     default: () => Date.now(),
+    // },
+    // updatedAt: {
+    //     type: Date,
+    //     default: () => Date.now(),
+    // },
+    uid : String,
 })
 
-module.exports = mongoose.model("articles", postSchema)
+const Post = mongoose.model("articles", postSchema)
+
+module.exports = Post
